@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(84, 97, 93);
+}
+.header {
+    margin-top: -8px;
+    margin-left: -6px;
+}
+.logo {
+    margin-top: -165px;
+    
+}
+.title {
+    font-size: 42px;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    margin-top: -180px;
+    margin-left: 400px;  
+	background-color: #2AA5A0;
+  background-image: linear-gradient(1deg, #0044ff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.p {
+    font-size: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 400px;
+    margin-top: -55px;
+    background-color: #2AA5A0;
+  background-image: linear-gradient(90deg, #ff0000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+button {
+    width: 200px;
+    height: 75px;
+    border-radius: 20px;
+    background-color: orange;
+    font-size: 34px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 1600px;
+    margin-top: -135px;
+    position: absolute;
+}
+.ph {
+    position: relative;
+    margin-top: -50px;
+    margin-left: 1600px;
+}
+
