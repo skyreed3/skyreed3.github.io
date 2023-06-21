@@ -1,17 +1,20 @@
-body{
-    background-color: rgb(84, 97, 93);
-}
+    body{
+        background-color: rgb(84, 97, 93);
+    }
 .header {
+    max-width: 100%;
+    position: relative;
+    margin-left: -5px;
     margin-top: -8px;
-    margin-left: -6px;
 }
 .logo {
+    max-width: 100%;
     margin-top: -165px;
-    
+    position: relative;
 }
 .title {
-    font-size: 42px;
     font-family: 'Roboto Condensed', sans-serif;
+    max-width: 100%;
     position: relative;
     margin-top: -180px;
     margin-left: 400px;  
@@ -19,17 +22,18 @@ body{
   background-image: linear-gradient(1deg, #0044ff, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 39px;
+  width: 600px;
 }
 .p {
-    font-size: 32px;
     font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 400px;
-    margin-top: -55px;
-    background-color: #2AA5A0;
-  background-image: linear-gradient(90deg, #ff0000, #000000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: relative;
+    max-width: 100%;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 400px;  
+    font-size: 30px;
+    position: relative;
+
 }
 button {
     width: 200px;
@@ -39,12 +43,38 @@ button {
     font-size: 34px;
     font-family: 'Roboto Condensed', sans-serif;
     margin-left: 1600px;
-    margin-top: -135px;
+    margin-top: -125px;
     position: absolute;
 }
 .ph {
     position: relative;
     margin-top: -50px;
     margin-left: 1600px;
+    max-width: 100%;
+}
+.number {
+    position: relative;
+    margin-top: -50px;
+    margin-left: 1650px;
+    
+}
+
+
+}
+
+@media screen and (max-width: 998px){
+
+
+
+}
+@media screen and (max-width: 768px){
+
+
+
+}
+@media screen and (max-width: 576px){
+
+
+
 }
 
