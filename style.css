@@ -1,22 +1,13 @@
-@media screen and (min-width: 1200px){
-    html {
-
-        overflow: visible;
-        
-        }
-    body{
-        background-color: rgb(84, 97, 93);
-    }
+body{
+    background-color: rgb(84, 97, 93);
+}
 .header {
-    max-width: 100%;
-    position: relative;
-    
-    margin-left: -2000px;
+    margin-top: -8px;
+    margin-left: -6px;
 }
 .logo {
-    max-width: 100%;
-    margin-top: 10000px;
-    position: relative;
+    margin-top: -165px;
+    
 }
 .title {
     font-family: 'Roboto Condensed', sans-serif;
@@ -33,13 +24,13 @@
 }
 .p {
     font-family: 'Roboto Condensed', sans-serif;
-    max-width: 100%;
-    position: relative;
-    margin-top: 10000px;
-    margin-left: 400px;  
-    font-size: 30px;
-    position: relative;
-
+    margin-left: 400px;
+    margin-top: -55px;
+    background-color: #2AA5A0;
+  background-image: linear-gradient(90deg, #ff0000, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
 }
 .button1 {
     width: 200px;
@@ -49,7 +40,7 @@
     font-size: 34px;
     font-family: 'Roboto Condensed', sans-serif;
     margin-left: 1600px;
-    margin-top: 10125px;
+    margin-top: -135px;
     position: absolute;
 }
 .ph {
@@ -145,161 +136,5 @@
     to {
         margin-top: -50px;
     margin-left: 1600px;
-    }
-}
-.number {
-    animation-name: name6;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-duration: 3.4s;
-}
-@keyframes name6 {
-    from {
-        margin-left: 1950px;
-    }
-
-    to {
-        margin-top: -50px;
-        margin-left: 1650px;
-    }
-    
-}
-.iphone {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    margin-top: 100px;
-}
-.iphone11 {
-    border: 5px solid rgb(90, 128, 133);
-    border-style: double;
-    border-radius: 24px;
-    margin: 0 20px
-}
-.iphonexr {
-    border: 5px solid rgb(90, 128, 133);
-    border-style: double;
-    border-radius: 24px;
-    margin-top: -2000px;
-    margin: 0 20px
-}
-.name11 {
-    margin-left: 60px;
-    color: aliceblue;
-}
-.text11 {
-    width: 300px;
-    color: white;
-    font-size: 20px;
-}
-.button2 {
-    background-color: rgb(156, 179, 179) ;
-    width: 200px;
-    height: 75px;
-    border-radius: 20px;
-    font-size: 34px;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 45px;
-    margin-top: -20 px;
-    text-decoration: none;
-}
-.textxr {
-    width: 300px;
-    color: white;
-    font-size: 16px;
-}
-.namexr {
-    margin-left: 60px;
-    color: aliceblue;
-}
-.iphone10  {
-    border: 5px solid rgb(90, 128, 133);
-    border-style: double;
-    border-radius: 24px;
-    
-    margin: 0 20px
-}
-.text10 {
-    width: 300px;
-    color: white;
-    font-size: 24px;
-}
-.name10 {
-    margin-left: 60px;
-    color: aliceblue;
-}
-.iphone11 {
-    animation-name: iphone11;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    animation-delay: 1s;
-}
-@keyframes iphone11 {
-    0% {
-        transform: translate(-1000px,0px);
-        opacity: 0;
-    }
-    100% {
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-
-}
-.iphonexr {
-    animation-name: iphonexr;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    animation-delay: 1s;
-}
-@keyframes iphonexr {
-    0% {
-        transform: translate(0px,1000px);
-        opacity: 0;
-    }
-    100% {
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-
-}
-.iphone10 {
-    animation-name: iphone10;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    animation-delay: 1s;
-}
-@keyframes iphone10 {
-    0% {
-        transform: translate(1000px,0px);
-        opacity: 0;
-    }
-    100% {
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-}
-}
-
-@media screen and (max-width: 998px){
-
-
-
-}
-@media screen and (max-width: 768px){
-
-
-
-}
-@media screen and (max-width: 576px){
-
-
-
 }
 
