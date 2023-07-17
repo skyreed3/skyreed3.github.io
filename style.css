@@ -1,305 +1,239 @@
-@media screen and (min-width: 1200px){
-    html {
-
-        overflow: visible;
-        
-        }
-    body{
-        background-color: rgb(84, 97, 93);
-    }
+body {
+    background: gray;
+}
+/* Стиль шапки с серым фоном и отступами */
 .header {
-    max-width: 100%;
-    position: relative;
-    
-    margin-left: -2000px;
-}
-.logo {
-    max-width: 100%;
-    margin-top: 10000px;
-    position: relative;
-}
-.title {
-    font-family: 'Roboto Condensed', sans-serif;
-    max-width: 100%;
-    position: relative;
-    margin-top: 10000px;
-    margin-left: 400px;  
-	background-color: #2AA5A0;
-  background-image: linear-gradient(1deg, #0044ff, #ffffff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 39px;
-  width: 600px;
-}
-.p {
-    font-family: 'Roboto Condensed', sans-serif;
-    max-width: 100%;
-    position: relative;
-    margin-top: 10000px;
-    margin-left: 400px;  
-    font-size: 30px;
-    position: relative;
-
-}
-.button1 {
-    width: 200px;
-    height: 75px;
-    border-radius: 20px;
-    background-color: orange;
-    font-size: 34px;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 1600px;
-    margin-top: 10125px;
-    position: absolute;
-}
-.ph {
-    position: relative;
-    margin-top: 10000px;
-    margin-left: 1600px;
-    max-width: 100%;
-}
-.number {
-    position: relative;
-    max-width: 100%;
-    margin-top: -50px;
-        margin-left: 1650px;
-    
-    
-}
- .header {
-    animation-name: name;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
- }
- @keyframes name {
-
-    to {
-        margin-left: -6px;
-        margin-top: -8px;
-    }
-    
- }
- .logo {
-    animation-name: name1;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-duration: 2s;
- }
- @keyframes name1
-  {
-    
-    to {
-        margin-top: -165px;
-    }
- }
- .title {
-    animation-name: name2;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-duration: 2.3s;
-
- }
- @keyframes name2 {
-    to {
-        margin-top: -180px;
-    margin-left: 400px;  
-    }
-    
- }
- .p {
-    animation-name: name3;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-duration: 2.6s;
-
- }
- @keyframes name3 {
-    to {
-        margin-top: -50px;
-    margin-left: 400px; 
-    }
-    
- }
-.button1 {
-    animation-name: name4;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-duration: 2.9s;
-}
-@keyframes name4
- {
-    to {
-        margin-left: 1600px;
-    margin-top: -125px;
-    }
-}
-.ph {
-    animation-name: name5;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-duration: 3.1s;
-}
-@keyframes name5
- {
-    to {
-        margin-top: -50px;
-    margin-left: 1600px;
-    }
-}
-.number {
-    animation-name: name6;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-duration: 3.4s;
-}
-@keyframes name6 {
-    from {
-        margin-left: 1950px;
-    }
-
-    to {
-        margin-top: -50px;
-        margin-left: 1650px;
-    }
-    
-}
-.iphone {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    margin-top: 100px;
-}
-.iphone11 {
-    border: 5px solid rgb(90, 128, 133);
-    border-style: double;
-    border-radius: 24px;
-    margin: 0 20px
-}
-.iphonexr {
-    border: 5px solid rgb(90, 128, 133);
-    border-style: double;
-    border-radius: 24px;
-    margin-top: -2000px;
-    margin: 0 20px
-}
-.name11 {
-    margin-left: 60px;
-    color: aliceblue;
-}
-.text11 {
-    width: 300px;
-    color: white;
-    font-size: 20px;
-}
-.button2 {
-    background-color: rgb(156, 179, 179) ;
-    width: 200px;
-    height: 75px;
-    border-radius: 20px;
-    font-size: 34px;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-left: 45px;
-    margin-top: -20 px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    border-radius: 25px;
+    box-shadow: 0 15px 30px 10px rgba(0, 0, 0, .5);
+    margin-left: 8px;
+  }
+  
+  /* Стиль ссылок шапки */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
     text-decoration: none;
-}
-.textxr {
-    width: 300px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Стиль ссылки логотипа */
+  .header a.logo {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Изменение цвета фона при наведении курсора */
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Стиль активной/текущей ссылки */
+  .header a.active {
+    background-color: dodgerblue;
     color: white;
-    font-size: 16px;
-}
-.namexr {
-    margin-left: 60px;
-    color: aliceblue;
-}
-.iphone10  {
-    border: 5px solid rgb(90, 128, 133);
-    border-style: double;
-    border-radius: 24px;
-    
-    margin: 0 20px
-}
-.text10 {
-    width: 300px;
-    color: white;
-    font-size: 24px;
-}
-.name10 {
-    margin-left: 60px;
-    color: aliceblue;
-}
-.iphone11 {
-    animation-name: iphone11;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    animation-delay: 1s;
-}
-@keyframes iphone11 {
-    0% {
-        transform: translate(-1000px,0px);
-        opacity: 0;
+  }
+  
+  /* Сдвигаем секцию со ссылками вправо */
+  .header-right {
+    float: right;
+  }
+  
+  /* Медиа-запрос для адаптивности – когда ширина
+    экрана 650px или меньше, ссылки будут друг над другом */
+  @media screen and (max-width: 650px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
     }
-    100% {
-        transform: translate(0px,0px);
-        opacity: 1;
+    .header-right {
+      float: none;
     }
-
+  }
+/* logo */
+.logo1 {
+    border: 2px solid black;
+    border-radius: 26px;
+    border:31%;
 }
-.iphonexr {
-    animation-name: iphonexr;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    animation-delay: 1s;
+/* Main */
+.block {
+  background-color: rgb(255, 255, 255);
+  margin-top: 34px;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 0 15px 30px 10px rgba(0, 0, 0, .5);
+  width: 1800px;
+  margin-left: 30px;
+  
 }
-@keyframes iphonexr {
-    0% {
-        transform: translate(0px,1000px);
-        opacity: 0;
-    }
-    100% {
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-
+.header:hover {
+  animation: pulse 0.3s ease-in-out ;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
 }
-.iphone10 {
-    animation-name: iphone10;
-    animation-duration: 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    animation-delay: 1s;
+.block:hover {
+  animation: pulse 0.3s ease-in-out ;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
 }
-@keyframes iphone10 {
-    0% {
-        transform: translate(1000px,0px);
-        opacity: 0;
-    }
-    100% {
-        transform: translate(0px,0px);
-        opacity: 1;
-    }
-}
-}
-
-@media screen and (max-width: 998px){
-
-
-
-}
-@media screen and (max-width: 768px){
-
-
-
-}
-@media screen and (max-width: 576px){
-
-
-
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.01);
+  }
+  
 }
 
+
+
+#title {
+  background-color: gray;
+ margin-top: 34px;
+  position: fixed;
+  border-radius: 25px;
+  box-shadow: 0 1px 10px 5px rgba(0, 0, 0, .5);
+  width: 260px;
+  margin-left: 20px;
+  height: 70px;
+}
+
+#title h1 {
+  color: rgb(255, 255, 255);
+  margin-left: 18px;
+  margin-top: 15px;
+  position:static;
+
+}
+* {box-sizing: border-box}
+      body {
+      font-family: Verdana, sans-serif;
+      margin:0}
+      .mySlides {display: none}
+      img {vertical-align: middle;
+        border-radius: 10px;
+        border: 5px #ccc solid;
+        box-shadow: 0 0 10px #444;}
+      .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+      
+      }
+      /* Кнопки next & previous*/
+      .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      }
+      /* Измените положение "next button" */
+      .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      }
+      /* Добавьте черный фоновый цвет с небольшой прозрачностью*/
+      .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+      }
+      /* Подпись под изображением */
+      .text {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+      }
+      /* Number text (1/3 etc) */
+      .numbertext {
+      color: #ffffff;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: relative;
+      top: 0;
+      
+      }
+      /* Точки/маркеры/указатели */
+      .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #999999;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+      
+      }
+      .active, .dot:hover {
+      background-color: #111111;
+      }
+      /* Выцветание анимации */
+      .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+      /* Для маленьких экранов увеличьте размер текста */
+      @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+      }
+      .slideshow-container {
+        width: 400px;
+        margin-right: 60px;
+        border-radius: 25%;
+      }
+      .numbertext {
+        margin-right:200px;
+      }
+      .alldot {
+        margin-right: -1300px;
+      }
+      .block1 {
+         
+          background-color: gray;
+          margin-top: 150px;
+          position: fixed;
+          border-radius: 25px;
+          box-shadow: 0 1px 10px 5px rgba(0, 0, 0, .5);
+          width: 1300px;
+          margin-left: 20px;
+          height: 300px;
+        
+      }
+      .block1 p {
+        color: white;
+        font-size: 30px;
+        margin-left: 20px;
+      }
